@@ -1,1 +1,1 @@
-# UI module initialization
+"""GTK4 + Libadwaita UI components."""

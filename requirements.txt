@@ -1,7 +1,0 @@
-PyQt5==5.15.9
-ebooklib==0.18
-Pillow==10.0.0
-lxml==4.9.3
-pdfminer.six==20221105
-mobi==0.3.3
-fb2reader>=1.0.1

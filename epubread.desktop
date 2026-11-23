@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=EPUBRead
-Comment=A lightweight e-book reader for EPUB, PDF, MOBI, FB2
-Exec=epubread
-Icon=book
-Terminal=false
-Type=Application
-Categories=Office;Viewer;
-Keywords=ebook;reader;epub;pdf;mobi;fb2;

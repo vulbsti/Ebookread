@@ -62,3 +62,7 @@ eread/
 # Project specific
 debug.log
 ~/.epubread/
+# Local
+.venv/
+.pytest_cache/
+*.tmp

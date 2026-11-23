@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ebookread"
+version = "0.2.0"
+description = "Ubuntu-native GTK4 / Libadwaita / WebKitGTK ebook reader"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ebookread = "epubread.main:main"
+
+[tool.setuptools.packages.find]
+include = ["epubread*"]
+
+[tool.setuptools.package-data]
+"epubread.web" = ["*.html", "*.css", "*.js", "foliate-js/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
