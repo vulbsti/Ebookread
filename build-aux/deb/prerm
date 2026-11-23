@@ -1,0 +1,6 @@
+#!/bin/sh
+# Remove the .pyc files postinst created, so dpkg can delete the package's folders.
+set -e
+if [ "$1" = "remove" ] || [ "$1" = "upgrade" ]; then
+  find /usr/share/ebookread -type d -name __pycache__ -prune -exec rm -rf {} + 2>/dev/null || true
+fi

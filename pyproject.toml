@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ebookread"
-version = "0.2.0"
-description = "Ubuntu-native GTK4 / Libadwaita / WebKitGTK ebook reader"
+version = "0.3.0"
+description = "A comfortable GTK4 e-book reader for EPUB, MOBI, FB2, comics and PDF"
+license = "GPL-3.0-or-later"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []

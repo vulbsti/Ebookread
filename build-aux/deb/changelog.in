@@ -1,0 +1,5 @@
+ebookread (@VERSION@) unstable; urgency=medium
+
+  * Upstream release; see the release notes in the AppStream metadata.
+
+ -- vulbsti <vulbsti@users.noreply.github.com>  @DATE@

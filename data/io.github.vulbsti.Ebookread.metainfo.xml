@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.vulbsti.Ebookread</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Ebookread</name>
+  <summary>Read e-books comfortably</summary>
+  <developer id="io.github.vulbsti">
+    <name>vulbsti</name>
+  </developer>
+
+  <description>
+    <p>
+      Ebookread is a calm, distraction-free reader for EPUB, Kindle (MOBI and AZW3),
+      FictionBook, comic books (CBZ) and PDF. It remembers exactly where you stopped and
+      keeps your whole library one click away.
+    </p>
+    <p>Finding your way</p>
+    <ul>
+      <li>Contents that follow you as you read, for every format</li>
+      <li>Footnotes in a popover, without losing your page</li>
+      <li>Back and forward after any jump, search with highlights, and bookmarks</li>
+      <li>Chapter progress, pages left in the chapter and reading time left</li>
+    </ul>
+    <p>Reading comfortably</p>
+    <ul>
+      <li>Light, sepia, dark and black themes, or follow the system</li>
+      <li>Your choice of font, size, spacing and margins, or the book’s own design</li>
+      <li>Warmth, contrast, colour and brightness adjustments</li>
+      <li>Smooth page turns; controls step aside while you read</li>
+    </ul>
+    <p>Your library</p>
+    <ul>
+      <li>Import single books or whole folders; covers and titles for every format</li>
+      <li>Duplicates are skipped and moved books are recognised</li>
+      <li>Continue reading where you left off</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">io.github.vulbsti.Ebookread.desktop</launchable>
+  <provides>
+    <binary>ebookread</binary>
+    <mediatype>application/epub+zip</mediatype>
+    <mediatype>application/x-mobipocket-ebook</mediatype>
+    <mediatype>application/vnd.amazon.mobi8-ebook</mediatype>
+    <mediatype>application/x-fictionbook+xml</mediatype>
+    <mediatype>application/vnd.comicbook+zip</mediatype>
+    <mediatype>application/pdf</mediatype>
+  </provides>
+
+  <url type="homepage">https://github.com/vulbsti/Ebookread</url>
+  <url type="bugtracker">https://github.com/vulbsti/Ebookread/issues</url>
+  <url type="vcs-browser">https://github.com/vulbsti/Ebookread</url>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Reading with contents and footnotes at hand</caption>
+      <image>https://raw.githubusercontent.com/vulbsti/Ebookread/main/data/screenshots/reader.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Your library, with continue reading</caption>
+      <image>https://raw.githubusercontent.com/vulbsti/Ebookread/main/data/screenshots/library.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Dark theme, controls hidden</caption>
+      <image>https://raw.githubusercontent.com/vulbsti/Ebookread/main/data/screenshots/dark.png</image>
+    </screenshot>
+  </screenshots>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#ece3cf</color>
+    <color type="primary" scheme_preference="dark">#4a2a10</color>
+  </branding>
+
+  <content_rating type="oars-1.1"/>
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+
+  <releases>
+    <release version="0.3.0" date="2026-11-23">
+      <description>
+        <p>A complete rewrite for GNOME.</p>
+        <ul>
+          <li>New reading engine with support for EPUB, MOBI, AZW3, FB2, CBZ and PDF</li>
+          <li>Contents, footnote popovers, history, search and bookmarks</li>
+          <li>Themes, typography and colour adjustments</li>
+          <li>A library with covers, folder import and continue reading</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

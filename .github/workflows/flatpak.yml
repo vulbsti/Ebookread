@@ -1,0 +1,21 @@
+name: Flatpak
+
+on:
+  push:
+    branches: [main, gtk4-rewrite]
+  pull_request:
+
+jobs:
+  build:
+    name: Build Flatpak bundle
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/flathub-infra/flatpak-github-actions:gnome-51
+      options: --privileged
+    steps:
+      - uses: actions/checkout@v4
+      - uses: flathub-infra/flatpak-github-actions/flatpak-builder@933e9e8ca36e85046ebca8e211f0785c6becac40
+        with:
+          bundle: ebookread.flatpak
+          manifest-path: build-aux/flatpak/io.github.vulbsti.Ebookread.json
+          cache-key: flatpak-builder-${{ github.sha }}

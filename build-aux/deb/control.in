@@ -1,0 +1,17 @@
+Package: ebookread
+Version: @VERSION@
+Section: graphics
+Priority: optional
+Architecture: all
+Maintainer: vulbsti <vulbsti@users.noreply.github.com>
+Installed-Size: @SIZE@
+Depends: python3 (>= 3.10), python3-gi (>= 3.42), gir1.2-gtk-4.0 (>= 4.12), gir1.2-adw-1 (>= 1.5), gir1.2-webkit-6.0, gir1.2-soup-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-graphene-1.0
+Homepage: https://github.com/vulbsti/Ebookread
+Description: calm, distraction-free e-book reader
+ Ebookread reads EPUB, Kindle (MOBI and AZW3), FictionBook, comic books (CBZ)
+ and PDF. It remembers where you stopped in every book and keeps your library
+ one click away.
+ .
+ Contents follow you as you read, footnotes open in a popover, and search,
+ bookmarks and back/forward history work in every format. Themes, fonts,
+ spacing, margins and colour adjustments make long reading comfortable.

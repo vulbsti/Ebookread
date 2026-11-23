@@ -1,0 +1,7 @@
+#!/bin/sh
+# Byte-compile for this machine's Python. Icon and .desktop caches are refreshed
+# by the hicolor-icon-theme and desktop-file-utils dpkg triggers.
+set -e
+if [ "$1" = "configure" ]; then
+  python3 -m compileall -q /usr/share/ebookread/epubread >/dev/null || true
+fi

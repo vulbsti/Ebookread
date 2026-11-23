@@ -66,3 +66,7 @@ debug.log
 .venv/
 .pytest_cache/
 *.tmp
+build-dir/
+.flatpak-builder/
+repo/
+*.flatpak

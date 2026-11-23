@@ -1,0 +1,29 @@
+{
+    "id": "io.github.vulbsti.Ebookread",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "51",
+    "sdk": "org.gnome.Sdk",
+    "command": "ebookread",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=dri"
+    ],
+    "modules": [
+        {
+            "name": "ebookread",
+            "buildsystem": "simple",
+            "build-commands": [
+                "sh build-aux/install-app.sh ${FLATPAK_DEST}"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "../..",
+                    "skip": [".git", ".venv", ".pytest_cache", "tests", "docs", "build-dir", ".flatpak-builder", "repo"]
+                }
+            ]
+        }
+    ]
+}

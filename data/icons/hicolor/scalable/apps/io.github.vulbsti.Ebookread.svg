@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- cover -->
+  <path d="M12 30c0-4 3-7 7-7h90c4 0 7 3 7 7v72c0 4-3 7-7 7H19c-4 0-7-3-7-7z" fill="#6b3d17"/>
+  <path d="M12 98v4c0 4 3 7 7 7h90c4 0 7-3 7-7v-4c0 4-3 7-7 7H19c-4 0-7-3-7-7z" fill="#4a2a10"/>
+  <!-- pages -->
+  <path d="M18 26c16-4 32-3 44 4v74c-12-6-28-7-44-3z" fill="#f7f1e3"/>
+  <path d="M110 26c-16-4-32-3-44 4v74c12-6 28-7 44-3z" fill="#efe6d3"/>
+  <path d="M62 30h4v74h-4z" fill="#dfd3bc"/>
+  <!-- text lines -->
+  <g fill="#c9b99c">
+    <rect x="26" y="40" width="28" height="3" rx="1.5"/>
+    <rect x="26" y="49" width="28" height="3" rx="1.5"/>
+    <rect x="26" y="58" width="24" height="3" rx="1.5"/>
+    <rect x="26" y="67" width="28" height="3" rx="1.5"/>
+    <rect x="26" y="76" width="20" height="3" rx="1.5"/>
+    <rect x="74" y="40" width="28" height="3" rx="1.5"/>
+    <rect x="74" y="49" width="28" height="3" rx="1.5"/>
+    <rect x="74" y="58" width="22" height="3" rx="1.5"/>
+    <rect x="74" y="67" width="28" height="3" rx="1.5"/>
+  </g>
+  <!-- bookmark ribbon -->
+  <path d="M90 22h12v34l-6-5-6 5z" fill="#e0533b"/>
+</svg>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Ebookread
+GenericName=E-book Reader
+Comment=Read EPUB, MOBI, FB2, comics and PDFs comfortably
+Exec=ebookread %F
+Icon=io.github.vulbsti.Ebookread
+Terminal=false
+Categories=Office;Viewer;Literature;GTK;
+Keywords=ebook;epub;mobi;azw3;kindle;fb2;cbz;comic;pdf;book;reader;library;
+MimeType=application/epub+zip;application/x-mobipocket-ebook;application/vnd.amazon.mobi8-ebook;application/x-mobi8-ebook;application/x-fictionbook+xml;application/x-fictionbook;application/vnd.comicbook+zip;application/x-cbz;application/pdf;
+StartupNotify=true
+DBusActivatable=false
